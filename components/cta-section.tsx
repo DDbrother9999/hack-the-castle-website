@@ -10,7 +10,7 @@ export function CTASection() {
         </Button>
         <p className="text-sm">
           view this repository:{" "}
-          <Link href="https://github.com/example/hack-the-castle" className="underline hover:no-underline">
+          <Link href="https://github.com/DDbrother9999/hack-the-castle-website" className="underline hover:no-underline">
             [repository]
           </Link>
         </p>
