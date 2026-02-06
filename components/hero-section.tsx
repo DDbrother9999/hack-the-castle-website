@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
+import Image from "next/image"
 
 export function HeroSection() {
   return (
@@ -16,9 +17,15 @@ export function HeroSection() {
             <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus">Sign Up</Link>
           </Button>
         </div>
-        
-        <div className="aspect-[4/3] bg-muted rounded-lg flex items-center justify-center">
-          <span className="text-muted-foreground text-sm">Event Image</span>
+
+        <div className="aspect-[4/3] relative rounded-lg overflow-hidden shadow-lg">
+          <Image
+            src="/img/main.jpeg"
+            alt="Hack the Castle Event"
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
       </div>
     </section>
