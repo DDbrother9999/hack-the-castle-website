@@ -6,11 +6,11 @@ export function CTASection() {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-4">
         <Button asChild size="lg">
-          <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus">Sign Up</Link>
+          <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus" target="_blank" rel="noopener noreferrer">Sign Up</Link>
         </Button>
         <p className="text-sm">
           view this repository:{" "}
-          <Link href="https://github.com/DDbrother9999/hack-the-castle-website" className="underline hover:no-underline">
+          <Link href="https://github.com/DDbrother9999/hack-the-castle-website" className="underline hover:no-underline" target="_blank" rel="noopener noreferrer">
             [repository]
           </Link>
         </p>

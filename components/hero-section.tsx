@@ -14,7 +14,7 @@ export function HeroSection() {
             April 11th, at the Noble and Greenough School
           </p>
           <Button asChild size="lg">
-            <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus">Sign Up</Link>
+            <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus" target="_blank" rel="noopener noreferrer">Sign Up</Link>
           </Button>
         </div>
 
