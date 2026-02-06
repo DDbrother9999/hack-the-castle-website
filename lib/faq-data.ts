@@ -6,7 +6,7 @@ export interface FAQItem {
 export const faqData: FAQItem[] = [
   {
     question: "What is Hack the Castle?",
-    answer: "Hack the Castle is a 24-hour hackathon where students come together to build innovative projects, learn new skills, and compete for awesome prizes. Whether you're a coding veteran or complete beginner, there's a place for you!"
+    answer: "Hack the Castle is a 12-hour hackathon where students come together to build innovative projects, learn new skills, and compete for awesome prizes. Whether you're a coding veteran or complete beginner, there's a place for you!"
   },
   {
     question: "Who can participate?",
@@ -18,7 +18,7 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "What should I bring?",
-    answer: "Bring your laptop, charger, any personal items you need, and a sleeping bag if you plan to stay overnight. We'll provide food, drinks, snacks, and all the caffeine you need!"
+    answer: "Bring your laptop, charger, and any personal items you need. We'll provide food, drinks, and all the snacks you need!"
   },
   {
     question: "Is there a cost to participate?",
@@ -26,7 +26,7 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "What can I build?",
-    answer: "Anything you want! Web apps, mobile apps, games, hardware projects, AI tools - if you can dream it, you can build it. We encourage creativity and thinking outside the box."
+    answer: "Anything you want! Web apps, mobile apps, games, hardware projects, AI tools - as long as it fits within the guidelines of the theme (to be revealed). We encourage creativity and thinking outside the box."
   },
   {
     question: "Do I need a team?",
@@ -34,6 +34,6 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "What if I have more questions?",
-    answer: "Reach out to us at hackthecastle@nobles.edu or find any of the organizers. We're here to help make your experience legendary!"
+    answer: "Reach out to us at dyin27@nobles.edu or find any of the organizers. We're here to help make your experience legendary!"
   }
 ]
