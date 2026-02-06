@@ -11,7 +11,7 @@ export function HeroSection() {
             Hack the Castle
           </h1>
           <p className="text-lg text-muted-foreground mb-8 max-w-md">
-            March 11th, at the Noble and Greenough School
+            April 11th, at the Noble and Greenough School
           </p>
           <Button asChild size="lg">
             <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus">Sign Up</Link>
