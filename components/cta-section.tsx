@@ -6,7 +6,7 @@ export function CTASection() {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-4">
         <Button asChild size="lg">
-          <Link href="https://hackthecastle.fillout.com/t/gC31fNvoqfus" target="_blank" rel="noopener noreferrer">Sign Up</Link>
+          <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">Sign Up</Link>
         </Button>
         <p className="text-sm">
           view this repository:{" "}
