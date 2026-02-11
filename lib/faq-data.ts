@@ -34,6 +34,6 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "What if I have more questions?",
-    answer: "Reach out to us at dyin27@nobles.edu or find any of the organizers. We're here to help make your experience legendary!"
+    answer: "Reach out to us at hackthecastle@nobles.edu or find any of the organizers. We're here to help make your experience legendary!"
   }
 ]
