@@ -11,7 +11,7 @@ export function HeroSection() {
             Hack the Castle
           </h1>
           <p className="text-lg text-muted-foreground mb-8 max-w-md">
-            Saturday, April 11th, at the Noble and Greenough School
+            Saturday, April 11th, at the Noble and Greenough School (10 Campus Drive, Dedham, MA 02026)
           </p>
           <Button asChild size="lg">
             <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">Sign Up</Link>
