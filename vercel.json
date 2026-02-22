@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/signup", "destination": "https://forms.gle/NK5bPEad3BZ8YBZn6", "permanent": true }
+  ]
+}
