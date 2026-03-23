@@ -10,7 +10,7 @@ export const faqData: FAQItem[] = [
   },
   {
     question: "Who can participate?",
-    answer: "Any student currently enrolled in our school can participate! We welcome all skill levels - from first-time coders to experienced developers. Teams can have 1-4 members."
+    answer: "Any student currently enrolled in grades 6 through 12 are welcome! We welcome all skill levels - from first-time coders to experienced developers. Teams can have 1-4 members."
   },
   {
     question: "Do I need to know how to code?",
