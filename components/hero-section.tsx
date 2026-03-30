@@ -24,7 +24,7 @@ export function HeroSection() {
           <h1 className="relative text-5xl md:text-7xl lg:text-[6.5rem] xl:text-[8rem] font-bold text-white tracking-tight leading-none md:leading-tight inline-block drop-shadow-2xl">
             Hack the Castle
             {/* Sticker positioned relative to the title, scaled precisely for the tight-cropped PNG, resting just outside the text block */}
-            <div className="absolute top-[60%] -translate-y-1/2 right-[-250px] md:right-[-330px] lg:right-[-420px] xl:right-[-500px] z-20 w-[240px] h-[240px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] xl:w-[480px] xl:h-[480px] pointer-events-none hover:-rotate-2 transition-transform duration-300">
+            <div className="absolute top-[75%] -translate-y-1/2 -right-60.5 md:-right-82.5 lg:-right-105 xl:-right-125 z-20 w-60 h-60 md:w-[320px] md:h-80 lg:w-100 lg:h-100 xl:w-120 xl:h-120 pointer-events-none hover:-rotate-2 transition-transform duration-300">
               <Image
                 src="/img/sticker.png"
                 alt="Hack the Castle Sticker"
