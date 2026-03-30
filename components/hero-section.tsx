@@ -4,27 +4,55 @@ import Image from "next/image"
 
 export function HeroSection() {
   return (
-    <section className="min-h-[80vh] flex items-center px-6 py-16">
-      <div className="max-w-6xl mx-auto w-full grid md:grid-cols-2 gap-12 items-center">
-        <div>
-          <h1 className="text-5xl md:text-6xl font-bold tracking-tight mb-6 text-balance">
+    <section className="relative min-h-[95vh] pt-4 md:pt-8 lg:pt-10 overflow-hidden flex flex-col justify-start">
+      {/* Background Image */}
+      <div className="absolute inset-0 w-full h-full z-0">
+        <Image
+          src="/img/castle.jpg"
+          alt="Noble and Greenough Castle"
+          fill
+          className="object-cover object-top"
+          priority
+        />
+        {/* Vignette gradient overlay to darken edges */}
+        <div className="absolute inset-0 bg-black/40" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-transparent to-black/80" />
+      </div>
+
+      <div className="relative z-10 w-full px-6 md:px-16 lg:px-24 mb-24 max-w-[1600px] mx-auto">
+        <div className="mb-4 text-left">
+          <h1 className="relative text-5xl md:text-7xl lg:text-[6.5rem] xl:text-[8rem] font-bold text-white tracking-tight leading-none md:leading-tight inline-block drop-shadow-2xl">
             Hack the Castle
+            {/* Sticker positioned relative to the title, scaled precisely for the tight-cropped PNG, resting just outside the text block */}
+            <div className="absolute top-[60%] -translate-y-1/2 right-[-250px] md:right-[-330px] lg:right-[-420px] xl:right-[-500px] z-20 w-[240px] h-[240px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px] xl:w-[480px] xl:h-[480px] pointer-events-none hover:-rotate-2 transition-transform duration-300">
+              <Image
+                src="/img/sticker.png"
+                alt="Hack the Castle Sticker"
+                fill
+                className="object-contain"
+                priority
+              />
+            </div>
           </h1>
-          <p className="text-lg text-muted-foreground mb-8 max-w-md">
-            Saturday, April 11th, at the Noble and Greenough School (10 Campus Drive, Dedham, MA 02026)
-          </p>
-          <Button asChild size="lg">
-            <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">Sign Up</Link>
+        </div>
+        <p className="text-lg md:text-2xl lg:text-3xl text-white font-bold mb-8 max-w-4xl drop-shadow-md relative z-30">
+          Saturday, April 11th, at the <a href="https://maps.app.goo.gl/VRPPFBmpCC22bVnJ7" target="_blank" rel="noopener noreferrer" className="underline hover:text-white/80 transition-colors">Noble and Greenough School</a>
+        </p>
+        <div className="inline-block relative z-30 group mb-10">
+          <Button asChild className="bg-gradient-to-r from-[#00b0ff] to-[#0052cc] hover:scale-105 active:scale-95 transition-transform duration-200 text-white text-2xl md:text-3xl px-12 md:px-14 py-7 md:py-8 h-auto font-bold rounded-full shadow-[0_8px_20px_rgba(0,0,0,0.4)] uppercase tracking-widest border-0">
+            <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">
+              Sign Up
+            </Link>
           </Button>
         </div>
 
-        <div className="aspect-[4/3] relative rounded-lg overflow-hidden shadow-lg">
+        {/* main.jpeg added back below the sign up button */}
+        <div className="relative z-30 w-full sm:w-[80%] max-w-lg aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 transform hover:-rotate-1 transition-transform duration-300 pointer-events-auto">
           <Image
             src="/img/main.jpeg"
             alt="Hack the Castle Event"
             fill
             className="object-cover"
-            priority
           />
         </div>
       </div>
