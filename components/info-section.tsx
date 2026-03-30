@@ -30,13 +30,30 @@ const schedule = [
   { time: "12:00 PM", event: "Lunch" },
   { time: "1:00 PM", event: "Work Block 2" },
   { time: "4:30 PM", event: "Demos & Judging" },
-  { time: "5:00 PM", event: "Closing Ceremony" },
+  { time: "6:00 PM", event: "Closing Ceremony" },
 ]
 
 export function InfoSection() {
   return (
     <section id="info" className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
+        {/* Introduction Blurb */}
+        <div className="mb-24 bg-white text-blue-950 p-8 md:p-12 lg:p-14 rounded-3xl shadow-xl border border-blue-100/50">
+          <div className="relative z-10">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-8 md:mb-10 text-[#002855] tracking-tight leading-snug">
+              Hack the Castle is a <span className="text-[#0052cc]">hackathon.</span>
+            </h2>
+            <div className="space-y-6 text-sm md:text-base lg:text-lg text-[#003366]/80 max-w-4xl">
+              <p className="leading-relaxed">
+                You are invited to Hack the Castle, a <span className="text-[#002855] font-semibold">9-hour hackathon</span> hosted at the Noble and Greenough School on <span className="text-[#002855] font-semibold">April 11th (9 AM - 6 PM)</span>.
+              </p>
+              <p className="leading-relaxed">
+                Open to all students in grades 6-12, this is a chance to build a technical project (like a website, game, or app) alongside peers. Mentors will be available, and there are various awards (totaling <span className="text-[#0052cc] font-semibold">$200</span>) to be won!
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* Why Attend */}
         <div className="mb-24">
           <h2 className="text-3xl md:text-4xl font-bold mb-16">Why should you attend?</h2>
@@ -46,8 +63,8 @@ export function InfoSection() {
               <div
                 key={index}
                 className={`flex flex-col gap-6 ${reason.imagePosition === "left"
-                    ? "md:flex-row"
-                    : "md:flex-row-reverse"
+                  ? "md:flex-row"
+                  : "md:flex-row-reverse"
                   }`}
               >
                 <div className="md:w-1/3 aspect-[4/3] relative rounded-lg overflow-hidden shadow-md shrink-0">
