@@ -30,7 +30,7 @@ const schedule = [
   { time: "12:00 PM", event: "Lunch" },
   { time: "1:00 PM", event: "Work Block 2" },
   { time: "4:30 PM", event: "Demos & Judging" },
-  { time: "6:00 PM", event: "Closing Ceremony" },
+  { time: "5:00 PM", event: "Closing Ceremony" },
 ]
 
 export function InfoSection() {
@@ -45,7 +45,7 @@ export function InfoSection() {
             </h2>
             <div className="space-y-6 text-sm md:text-base lg:text-lg text-[#003366]/80 max-w-4xl">
               <p className="leading-relaxed">
-                You are invited to Hack the Castle, a <span className="text-[#002855] font-semibold">9-hour hackathon</span> hosted at the Noble and Greenough School on <span className="text-[#002855] font-semibold">April 11th (9 AM - 6 PM)</span>.
+                You are invited to Hack the Castle, a <span className="text-[#002855] font-semibold">8-hour hackathon</span> hosted at the Noble and Greenough School on <span className="text-[#002855] font-semibold">April 11th (9 AM - 5 PM)</span>.
               </p>
               <p className="leading-relaxed">
                 Open to all students in grades 6-12, this is a chance to build a technical project (like a website, game, or app) alongside peers. Mentors will be available, and there are various awards (totaling <span className="text-[#0052cc] font-semibold">$200</span>) to be won!
