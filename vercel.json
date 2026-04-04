@@ -1,5 +1,6 @@
 {
   "redirects": [
-    { "source": "/signup", "destination": "https://forms.gle/NK5bPEad3BZ8YBZn6", "permanent": true }
+    { "source": "/signup", "destination": "https://forms.gle/NK5bPEad3BZ8YBZn6", "permanent": true },
+    { "source": "/checkin", "destination": "https://docs.google.com/forms/d/e/1FAIpQLScdvllTa5r5WQXqIk1djBywRFMahkh5iSc944hhi5vZHzNXdw/viewform", "permanent": true }
   ]
 }
