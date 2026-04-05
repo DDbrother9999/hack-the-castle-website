@@ -130,32 +130,34 @@ const EventQRScanner: React.FC = () => {
 
     return (
         <div className="app-wrapper" style={{ backgroundColor: bgColor, minHeight: '100vh' }}>
+
             {/* --- Scanner View --- */}
-            {(!participant && !scanError && !isLoading) && (
-                <div id="scanner-container">
-                    <div id="video-container" className="example-style-2" style={{ display: isScanning ? 'flex' : 'none' }}>
-                        <video id="qr-video" ref={videoRef}></video>
-                    </div>
-
-                    <div>
-                        <b>Preferred camera:</b>
-                        <br />
-                        <select id="cam-list" value={selectedCamera} onChange={handleCameraChange}>
-                            <option value="environment">Environment Facing (default)</option>
-                            <option value="user">User Facing</option>
-                            {cameras.map((camera) => (
-                                <option key={camera.id} value={camera.id}>
-                                    {camera.label || camera.id}
-                                </option>
-                            ))}
-                        </select>
-                    </div>
-
-                    <button id="control-toggle" onClick={toggleScanning}>
-                        {isScanning ? "Stop Scanning" : "Start Scanning"}
-                    </button>
+            <div
+                id="scanner-container"
+                style={{ display: (!participant && !scanError && !isLoading) ? 'block' : 'none' }}
+            >
+                <div id="video-container" className="example-style-2" style={{ display: isScanning ? 'flex' : 'none' }}>
+                    <video id="qr-video" ref={videoRef}></video>
                 </div>
-            )}
+
+                <div>
+                    <b>Preferred camera:</b>
+                    <br />
+                    <select id="cam-list" value={selectedCamera} onChange={handleCameraChange}>
+                        <option value="environment">Environment Facing (default)</option>
+                        <option value="user">User Facing</option>
+                        {cameras.map((camera) => (
+                            <option key={camera.id} value={camera.id}>
+                                {camera.label || camera.id}
+                            </option>
+                        ))}
+                    </select>
+                </div>
+
+                <button id="control-toggle" onClick={toggleScanning}>
+                    {isScanning ? "Stop Scanning" : "Start Scanning"}
+                </button>
+            </div>
 
             {/* --- Loading View --- */}
             {isLoading && (
