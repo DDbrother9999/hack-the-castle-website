@@ -25,13 +25,19 @@ const reasons = [
 ]
 
 const schedule = [
-  { time: "9:00 AM", event: "Opening Ceremony" },
-  { time: "9:30 AM", event: "Work Block" },
-  { time: "12:00 PM", event: "Lunch" },
-  { time: "1:00 PM", event: "Work Block 2" },
-  { time: "4:30 PM", event: "Demos & Judging" },
-  { time: "5:00 PM", event: "Closing Ceremony" },
-]
+  { time: "9:00 AM", event: "Doors Open and Sign-In" },
+  { time: "9:30 AM", event: "Opening Ceremony" },
+  { time: "10:00 AM", event: "Github Workshop" },
+  { time: "10:30 AM", event: "Website (HTML + CSS) Workshop" },
+  { time: "10:30 AM", event: "Gamedev (Godot) Workshop" },
+  { time: "11:45 PM", event: "Lunch" },
+  { time: "12:30 PM", event: "Speaker" },
+  { time: "3:45 PM", event: "Ship (Submission) Deadline" },
+  { time: "4:00 PM", event: "Ship Showcase & Voting" },
+  { time: "4:30 PM", event: "Closing Ceremony" },
+  { time: "4:45 PM", event: "Group Photo & Clean Up" },
+  { time: "5:00 PM", event: "Event End" }
+];
 
 export function InfoSection() {
   return (

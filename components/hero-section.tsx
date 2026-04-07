@@ -40,7 +40,7 @@ export function HeroSection() {
         </p>
         <div className="inline-block relative z-30 group mb-10">
           <Button asChild className="bg-gradient-to-r from-[#00b0ff] to-[#0052cc] hover:scale-105 active:scale-95 transition-transform duration-200 text-white text-2xl md:text-3xl px-12 md:px-14 py-7 md:py-8 h-auto font-bold rounded-full shadow-[0_8px_20px_rgba(0,0,0,0.4)] uppercase tracking-widest border-0">
-            <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">
+            <Link href="https://docs.google.com/forms/d/e/1FAIpQLScdvllTa5r5WQXqIk1djBywRFMahkh5iSc944hhi5vZHzNXdw/viewform" target="_blank" rel="noopener noreferrer">
               Sign Up
             </Link>
           </Button>

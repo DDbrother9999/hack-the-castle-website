@@ -6,7 +6,7 @@ export function CTASection() {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center space-y-4">
         <Button asChild size="lg">
-          <Link href="https://forms.gle/NK5bPEad3BZ8YBZn6" target="_blank" rel="noopener noreferrer">Sign Up</Link>
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLScdvllTa5r5WQXqIk1djBywRFMahkh5iSc944hhi5vZHzNXdw/viewform" target="_blank" rel="noopener noreferrer">Sign Up</Link>
         </Button>
         <p className="text-sm">
           view this repository:{" "}
@@ -14,7 +14,7 @@ export function CTASection() {
             [repository]
           </Link>
         </p>
-        <p className="text-sm">made with love {"<3"}</p>
+        <p className="text-sm">made with love {"<3"} by Derek & Jayden</p>
       </div>
     </section>
   )
