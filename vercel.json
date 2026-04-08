@@ -1,6 +1,7 @@
 {
   "redirects": [
     { "source": "/signup", "destination": "https://forms.gle/LGjeD2mxU9da8PYNA", "permanent": true },
-    { "source": "/checkin", "destination": "https://docs.google.com/forms/d/e/1FAIpQLScdvllTa5r5WQXqIk1djBywRFMahkh5iSc944hhi5vZHzNXdw/viewform", "permanent": true }
+    { "source": "/checkin", "destination": "https://docs.google.com/forms/d/e/1FAIpQLScdvllTa5r5WQXqIk1djBywRFMahkh5iSc944hhi5vZHzNXdw/viewform", "permanent": true },
+    { "source": "/feedback", "destination": "https://forms.gle/4FotoGntTSGiRJvn8", "permanent": true }
   ]
 }
