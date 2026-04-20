@@ -6,7 +6,7 @@ export interface FAQItem {
 export const faqData: FAQItem[] = [
   {
     question: "What is Hack the Castle?",
-    answer: "Hack the Castle is a 12-hour hackathon where students come together to build innovative projects, learn new skills, and compete for awesome prizes. Whether you're a coding veteran or complete beginner, there's a place for you!"
+    answer: "Hack the Castle is a 9-hour hackathon where students come together to build innovative projects, learn new skills, and compete for awesome prizes. Whether you're a coding veteran or complete beginner, there's a place for you!"
   },
   {
     question: "Who can participate?",
